@@ -17,6 +17,8 @@ python manage.py migrate
             - For fast queryng we must implement a cache layer
     - Exercise 2. Contains the word_finder request. Here the word list is downloaded from https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english.txt, in order to make it optimal we must define the common list of word an treat it local or cached storaged instead of download it every time.
     - Exercise 3. Contains the search request. To use it, is needed to run before the importproducts command.
+        - TODO:
+            - Mantain finder object in a singleton
 - Notes:
     - The json file with fake products is copied to /test/data
     - The postman collection in stored in /test/api
